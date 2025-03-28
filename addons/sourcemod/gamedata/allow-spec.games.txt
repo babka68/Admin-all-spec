@@ -1,13 +1,29 @@
+// 01.03.2025 Updated Offsets for cs:s, dod:s, tf2, hl2mp
 "Games"
 {
-	"cstrike"
+	// Спасибо asd& [BLR] за офсеты под 34 версию ксс https://hlmod.net/threads/admin-all-spectate.12774/post-610936
+	/*"cstrike" // Only CSS v34
 	{
 		"Offsets"
 		{
 			"IsValidObserverTarget"
 			{
-				"windows"	"380"
-				"linux"		"381"
+				"windows"	"310"
+				"linux"		"311"
+			}
+		}
+	}
+	*/
+	
+	"cstrike" // Only CSS OB
+	{
+		"Offsets"
+		{
+			"IsValidObserverTarget"
+			{
+				"windows"	"387" 
+				"windows64"	"387"
+				"linux"		"388"
 			}
 		}
 	}
@@ -17,8 +33,9 @@
 		{
 			"IsValidObserverTarget"
 			{
-				"windows"	"383"
-				"linux"		"384"
+				"windows"	"391" 
+				"windows64"	"391"
+				"linux"		"392"
 			}
 		}
 	}
@@ -28,8 +45,9 @@
 		{
 			"IsValidObserverTarget"
 			{
-				"windows"	"379"
-				"linux"		"380"
+				"windows"	"386" 
+				"windows64"	"386"
+				"linux"		"387"
 			}
 		}
 	}
@@ -39,12 +57,13 @@
 		{
 			"IsValidObserverTarget"
 			{
-				"windows"	"379"
-				"linux"		"380"
+				"windows"	"386" 
+				"windows64"	"386"
+				"linux"		"387"
 			}
 		}
 	}
-	"csgo"
+	"csgo" // Под вопросом
 	{
 		"Offsets"
 		{
